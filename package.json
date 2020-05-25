@@ -1,0 +1,21 @@
+{
+  "name": "@blastz/nico-mongo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "push": "npm run tsc && npm publish --access public --registry=https://registry.npmjs.org"
+  },
+  "author": "blastz",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.7.21"
+  },
+  "devDependencies": {
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "dist/**/*"
+  ]
+}
